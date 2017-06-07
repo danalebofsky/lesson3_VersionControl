@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dana Lebofsky</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">LIS 2360 - Web Application Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#topic1">Version Control Systems (VCS)</a>
+                    </li>
+                    <li>
+                        <a href="#topic2">Git</a>
+                    </li>
+                    <li>
+                        <a href="#topic3">Git Basics</a>
+                    </li>
+                    <li>
+                        <a href="#topic4">Git Stages</a>
+                    </li>
+                    <li>
+                        <a href="#topic5">Repositories</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h2>Lesson 3 Highlights</h2>
+                <h3>Dana Lebofsky</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="topic1">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/file-management.jpeg">
+            <h2 class="featurette-heading">Highlight #1
+                <span class="text-muted">Version Control Systems (VCS)</span>
+            </h2>
+            <p class="lead">Version Control, also referred to as <i>'revision control' or 'source control',</i> is basically a <b>system that allows a user to track and retrieve their files over time.</b> A Version Control System (VCS) allows users to track all file changes, who they were changed by, when they were changed and utilize specific versions of their projects at any given point in time. Version control is a concept that can be/is used by virtually anyone. <br><br>Think about it like this: have you ever updated a project or document and saved it as "Document2017" rather than saving it to the previous file named "Document2016?" VCS solves the problem (on a larger scale) that the "Save As" function somewhat-fixes. <i>Yeah, it's that simple!</i>   </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="topic2">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/thumbs-up.jpeg">
+            <h2 class="featurette-heading">Highlight #2
+                <span class="text-muted">What's So Great About Git?</span>
+            </h2>
+            <p class="lead">There are several great qualities of Git that make it an ideal Version Control System to utilize with your projects and related works. I'll explain a few of my favorites.<br><br>Git is a <b>distributed</b> Version Control System, meaning that users have <i>full, complete access</i> to the server database from their <i>remote</i> connection. Being a distributed VCS is a huge advantage alone simply because if, for instance, multiple people were trying to work on the same project or if the server goes down, there is no need to worry!  <br><br> Another advantage of Git is the fact that it has <b>integrity.</b> Because Git tracks every file you tell it to, there are virtually no changes to the files or directory that go unnoticed. One of the fundamential concepts behind Gits creation was (in my own words) 'No change left behind.' <br><br>Lastly, the best advantage (in my opinion) of using Git is that it is super easy to learn! It's so easy that by the end of Lesson 3, you'll be a pro at navigating the different commands used by Git: add, commit, status, pull, push, etc. </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="topic3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/screen.jpeg">
+            <h2 class="featurette-heading">Highlight #3
+                <span class="text-muted">Git Basics</span>
+            </h2>
+            <p class="lead">Git is definitely better than the average when compared to your standard Version Control Systems. The major difference that sets Git apart from its competition is the fact that Git stores data fundamentally different than the average VCS.<i><b> Git stores data as different versions of file(s) or "snapshots" as it is referred, compared to other VCS which store data as a set of changes that are made to an original set of files.</i></b> Git's unique way of "thinking" allows for the retrieval of any version of any file, no matter if it's the first versio, the 17th version, or the latest version. <br><br> </p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+       <!-- Fourth Featurette -->
+        <div class="featurette" id="topic4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/remote-connection.jpg">
+            <h2 class="featurette-heading">Highlight #4
+                <span class="text-muted">Git's 3 Stages</span>
+            </h2>
+            <p class="lead">There are 3 main stages of a file: modified, staged, and committed. These stages represent the continuous life cycle of the files in your Git project. A <b>modified</b> file is one that has been edited but not committed to your database. A <b>staged</b> file is one that has been modified and is set to be committed to a snapshot and saved to your repository. Lastly, a <b>committed</b> file is a file whose current version has successfully been modified and staged, and is now safely stored on your local database.<br><br> In addition to the 3 main stages of a file, there are 3 different areas that those files live in: the working directory, the staging area, or the Git directory. When a file is modified, it is in the working directory. And lastly, when a file is committed, a snapshot is taken in the staging area and the file is moved to the Git directory/local repository.</p>
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="topic5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/remote-connection.jpg">
+            <h2 class="featurette-heading">Highlight #5
+                <span class="text-muted">Remote Repository vs Local Repository</span>
+            </h2>
+            <p class="lead">A <b>repository</b> is, by definition, a location in which data is stored and managed. When talking about Git, there are 2 different types of repositories: <b><i>remote</i></b> and <b><i>local.</i></b> Allow me to explain what makes each type of repository unique.<br><br><i>(Hint: It's not a very difficult concept to grasp)</i> <br><br>A <b><i>remote repository</i></b> is a repository that exists on a remote server. Access is shared among several team members.<br><br> A <b><i>local repository</i></b> is a repository that exists on a local machine of an individual user. There are 2 ways for a user to create a local repository on his/her local machine: from scratch or by cloning another, already existing remote repository.  </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
